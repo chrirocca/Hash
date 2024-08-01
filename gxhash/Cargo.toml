@@ -1,0 +1,11 @@
+[package]
+name = "hash"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gxhash = { path = "gxhash" }
+rand = "0.8.4"
+blake3 = "0.3.8"
+sha3 = "0.8.2"  # Add this line
+crc = "1.8.1"
